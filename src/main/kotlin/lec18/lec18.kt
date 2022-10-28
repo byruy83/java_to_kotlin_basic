@@ -43,7 +43,7 @@ fun main() {
     fruits.lastOrNull()
 
     val map: Map<String, List<Fruit>> = fruits.groupBy { fruit -> fruit.name }
-    val map2: Map<Long, Fruit> = fruits.associateBy { fruit -> fruit.id }
+    //val map2: Map<Long, Fruit> = fruits.associateBy { fruit -> fruit.id }
 }
 
 private fun filterFruits(
